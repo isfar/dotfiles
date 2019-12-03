@@ -1,0 +1,17 @@
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(211,215,207)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(230,146,133)', 'rgb(230,117,92)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(255,255,255)', 'rgb(24,46,52)', 'rgb(212,164,52)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(235,221,180)']
+default-size-columns=100
+default-size-rows=30
+cursor-shape='block'
+use-system-font=false
+use-theme-colors=false
+font='FantasqueSansMono Nerd Font  13'
+bold-color-same-as-fg=true
+cursor-blink-mode='on'
+background-color='rgb(29,31,27)'
+audible-bell=false
+scrollbar-policy='never'
+
+[legacy]
+schema-version=uint32 3
