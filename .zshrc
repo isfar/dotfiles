@@ -124,7 +124,7 @@ alias tk="tmux kill-session -t"
 alias tl="tmux ls"
 alias ls="colorls"
 
-alias inittm="cd ~/ws/com/devnet/bkash/IMS/ && tn bkash-ims"
+alias inittm="cd ~ && tn home"
 
 alias s2php72="sudo ln -sf /usr/bin/php7.2 /usr/bin/php && sudo systemctl stop php5.6-fpm.service && sudo systemctl start php7.2-fpm.service"
 alias s2php56="sudo ln -sf /usr/bin/php5.6 /usr/bin/php && sudo systemctl stop php7.2-fpm.service && sudo systemctl start php5.6-fpm.service"

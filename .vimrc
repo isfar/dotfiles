@@ -146,7 +146,6 @@ let g:airline_symbols.branch = ' '
 let g:indentLine_color_term = 240
 "let g:indentLine_char = '︙'¦'┆
 let g:indentLine_char = '¦'
-let g:EclimCompletionMethod = 'omnifunc'
 let g:user_emmet_leader_key='<C-b>'
 let g:user_emmet_expandabbr_key = '<C-c>'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
@@ -158,7 +157,6 @@ inoremap ] ]<Esc>ma==`aa
 "inoremap { {}<Esc>i
 "inoremap { {<Cr>}<Esc>O
 
-let g:EclimFileTypeValidate = 0
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -296,11 +294,7 @@ let g:NERDTreeIndicatorMapCustom = {
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 " set cursorline
 " set cursorcolumn
-
-
-let g:EclimPhpValidate = 0
 "nnoremap <C-x> :FZF<CR>
-
 
 autocmd InsertEnter * let save_cwd = getcwd() | set autochdir
 autocmd InsertLeave * set noautochdir | execute 'cd' fnameescape(save_cwd)
@@ -308,18 +302,13 @@ nnoremap <space> :noh<CR>
 nnoremap <c-p> :GFiles<cr>
 nnoremap <c-g> :FZF<cr>
 
-let g:EclimJavascriptValidate = 0
-
 "Remove all trailing whitespace by pressing F8
 nnoremap <F8> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 autocmd Filetype json let g:indentLine_setConceal = 0
 autocmd Filetype json set conceallevel=0 
 
-let g:EclimFileTypeValidate = 0
-
 autocmd FileType help,nerdtree IndentLinesDisable
 let NERDTreeMinimalUI=1
-
 
 " let g:syntastic_javascript_checkers = ['eslint']
 " let g:syntastic_javascript_eslint_exe = 'npm run lint --'
